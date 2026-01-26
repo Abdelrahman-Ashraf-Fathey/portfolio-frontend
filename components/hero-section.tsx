@@ -112,7 +112,7 @@ export function HeroSection() {
                 <Button
                     onClick={scrollToContent}
                     size="lg"
-                    className="group relative px-12 py-6 text-lg font-bold tracking-wider bg-primary hover:bg-primary/90 text-primary-foreground glow-amber transition-all duration-300 hover:scale-105"
+                    className="group  relative px-12 py-6 text-lg font-bold tracking-wider bg-primary hover:bg-primary/90 text-primary-foreground glow-amber transition-all duration-300 hover:scale-105"
                 >
                     <span className="relative z-10">START GAME</span>
                     <div className="absolute inset-0 bg-primary/50 blur-xl group-hover:blur-2xl transition-all" />

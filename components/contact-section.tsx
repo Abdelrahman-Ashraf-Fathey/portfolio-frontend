@@ -169,7 +169,7 @@ export function ContactSection() {
                                     className="p-4 bg-card border border-border rounded-lg hover:border-primary/50 hover:text-primary transition-all group"
                                     aria-label={link.label}
                                 >
-                                    <link.icon className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                                    <link.icon className="w-6 h-6 group-hover:-rotate-20 duration-500 transition-transform group-hover:scale-110" />
                                 </a>
                             ))}
                         </div>
@@ -222,7 +222,7 @@ export function ContactSection() {
                                                 })
                                             }
                                             required
-                                            className="w-full px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors"
+                                            className="w-full  px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors"
                                             placeholder="Enter your name"
                                         />
                                     </div>
@@ -240,12 +240,12 @@ export function ContactSection() {
                                                 })
                                             }
                                             required
-                                            className="w-full px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors"
+                                            className="w-full  px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors"
                                             placeholder="Enter your email"
                                         />
                                     </div>
                                     <div>
-                                        <label className="block font-mono text-xs text-muted-foreground mb-2">
+                                        <label className="block  font-mono text-xs text-muted-foreground mb-2">
                                             MESSAGE
                                         </label>
                                         <textarea
@@ -258,7 +258,7 @@ export function ContactSection() {
                                             }
                                             required
                                             rows={4}
-                                            className="w-full px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors resize-none"
+                                            className="w-full  px-4 py-3 bg-secondary border border-border rounded-lg font-mono text-foreground focus:border-primary focus:outline-none transition-colors resize-none"
                                             placeholder="Enter your message"
                                         />
                                     </div>

@@ -5,10 +5,12 @@ import { SkillsSection } from "@/components/skills-section";
 import { ExperienceSection } from "@/components/experience-section";
 import { AboutSection } from "@/components/about-section";
 import { ContactSection } from "@/components/contact-section";
+import Cursor from "@/components/ui/cursor";
 
 export default function Home() {
     return (
-        <main className="relative min-h-screen bg-background overflow-x-hidden">
+        <main className="relative min-h-screen bg-background overflow-x-hidden ">
+            <Cursor />
             <GameNavigation />
             <HeroSection />
             <ProjectsSection />

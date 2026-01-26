@@ -85,7 +85,7 @@ export function GameNavigation() {
                             onClick={() =>
                                 window.scrollTo({ top: 0, behavior: "smooth" })
                             }
-                            className="font-mono text-primary font-bold text-xl tracking-wider hover:text-glow transition-all"
+                            className="font-mono  text-primary font-bold text-xl tracking-wider hover:text-glow transition-all"
                         >
                             {"<3ATEF/>"}
                         </button>
@@ -97,7 +97,7 @@ export function GameNavigation() {
                                     key={item.id}
                                     onClick={() => scrollToSection(item.id)}
                                     className={cn(
-                                        "group relative px-4 py-2 font-mono text-sm tracking-wider transition-all duration-300",
+                                        "group  relative px-4 py-2 font-mono text-sm tracking-wider transition-all duration-300",
                                         activeSection === item.id
                                             ? "text-primary"
                                             : "text-muted-foreground hover:text-foreground",

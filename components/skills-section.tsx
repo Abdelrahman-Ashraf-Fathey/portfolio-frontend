@@ -90,6 +90,12 @@ export function SkillsSection() {
             <div className="max-w-6xl mx-auto relative">
                 {/* Section header */}
                 <div className="text-center mb-16">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-lg mb-4">
+                        <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                        <span className="font-mono text-sm text-primary tracking-wider">
+                            Arsenal
+                        </span>
+                    </div>
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
                         Tech Stack
                     </h2>
@@ -105,7 +111,7 @@ export function SkillsSection() {
                             key={category.id}
                             onClick={() => setActiveCategory(category.id)}
                             className={cn(
-                                "px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center gap-2",
+                                "px-6 py-3  rounded-lg font-medium transition-all duration-300 flex items-center gap-2",
                                 activeCategory === category.id
                                     ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
                                     : "bg-card/50 text-muted-foreground hover:bg-card hover:text-foreground border border-border/50",
