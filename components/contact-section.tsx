@@ -4,6 +4,7 @@ import type React from "react";
 
 import { useState } from "react";
 import { Send, Mail, CheckCircle, Terminal } from "lucide-react";
+import { SiReaddotcv } from "react-icons/si";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -101,6 +102,11 @@ export function ContactSection() {
             label: "Email",
             href: "mailto:abdelrahmanashraf6000@gmail.com",
         },
+        {
+            icon: SiReaddotcv,
+            label: "Resume",
+            href: "https://drive.google.com/file/d/1qlFz9Cpf5D93c3yv2t0GjBQf9Ic6K0J1/view?usp=sharing",
+        },
     ];
 
     return (
@@ -168,6 +174,7 @@ export function ContactSection() {
                                     href={link.href}
                                     className="p-4 bg-card border border-border rounded-lg hover:border-primary/50 hover:text-primary transition-all group"
                                     aria-label={link.label}
+                                    target="_blank"
                                 >
                                     <link.icon className="w-6 h-6 group-hover:-rotate-20 duration-500 transition-transform group-hover:scale-110" />
                                 </a>
