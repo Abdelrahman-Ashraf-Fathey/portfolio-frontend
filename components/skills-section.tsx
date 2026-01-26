@@ -33,7 +33,7 @@ const skills = {
         { name: "MongoDB", color: "#47A248", hover: "#6EEB83" }, // Neon green
     ],
     tools: [
-        { name: "Git", color: "#FF6B6B", hover: "#FF8C8C" }, // Bright red
+        { name: "Git", color: "#E84D31", hover: "#FF8C8C" }, // Bright red
         { name: "GitHub", color: "#FFFFFF", hover: "#E0E0E0" }, // White glow
         { name: "Figma", color: "#FF3B30", hover: "#FF6F61" }, // Bright orange-red
     ],

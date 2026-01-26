@@ -95,7 +95,7 @@ export function ExperienceSection() {
                 {/* Timeline */}
                 <div className="relative">
                     {/* Vertical line */}
-                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-1/2" />
+                    <div className="absolute left-1.75 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-1/2" />
 
                     {experiences.map((exp, index) => (
                         <div

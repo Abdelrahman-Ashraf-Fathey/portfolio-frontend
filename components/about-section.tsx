@@ -51,7 +51,7 @@ export function AboutSection() {
                         <div className="relative mx-auto w-64 h-64 md:w-80 md:h-80">
                             {/* Avatar frame */}
                             <div className="absolute inset-0 border-2 border-primary/50 rounded-lg rotate-3 bg-secondary/20" />
-                            <div className="absolute inset-0 border-2 border-primary rounded-lg -rotate-3 bg-card overflow-hidden">
+                            <div className="absolute hover:rotate-4 transition-all duration-200 ease-in-out inset-0 border-2 border-primary rounded-lg -rotate-3 bg-card overflow-hidden">
                                 <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-transparent" />
                                 {/* Silhouette placeholder */}
                                 <div className="absolute inset-0 flex items-center justify-center">
