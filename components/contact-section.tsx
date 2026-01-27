@@ -176,7 +176,14 @@ export function ContactSection() {
                                     aria-label={link.label}
                                     target="_blank"
                                 >
-                                    <link.icon className="w-6 h-6 group-hover:-rotate-20 duration-500 transition-transform group-hover:scale-110" />
+                                    <link.icon
+                                        className={cn(
+                                            "w-6 h-6 duration-500 transition-transform group-hover:scale-110",
+                                            link.label != "Resume"
+                                                ? "group-hover:-rotate-20"
+                                                : "-rotate-15 group-hover:-rotate-35",
+                                        )}
+                                    />
                                 </a>
                             ))}
                         </div>
