@@ -8,7 +8,7 @@ const experiences = [
     {
         chapter: "Chapter 1",
         title: "Computer Engineering Student",
-        company: "Tech Innovations Inc.",
+        company: "Faculty of Engineering, Helwan University",
         period: "2023 - 2028",
         description:
             "Pursuing a degree in Computer Engineering with a focus on software development and systems architecture. Engaging in various projects and internships to enhance practical skills.",
