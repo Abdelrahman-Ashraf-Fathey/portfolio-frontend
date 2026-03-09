@@ -15,7 +15,7 @@ const projects = [
         difficulty: 4,
         status: "COMPLETED",
         xp: 2500,
-        github: "https://github.com/AbdelrahmanAshraf62651/movie-go",
+        github: "https://github.com/Abdelrahman-Ashraf-Fathey/movie-go",
         live: "https://movie-go-flame.vercel.app/",
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         difficulty: 5,
         status: "COMPLETED",
         xp: 1800,
-        github: "https://github.com/AbdelrahmanAshraf62651/Workspace",
+        github: "https://github.com/Abdelrahman-Ashraf-Fathey/Workspace",
         live: "https://workspace-alpha-sage.vercel.app/",
     },
     {
@@ -41,8 +41,8 @@ const projects = [
         difficulty: 3,
         status: "COMPLETED",
         xp: 1500,
-        github: "https://github.com/AbdelrahmanAshraf62651/FlavorFinds",
-        live: "https://abdelrahmanashraf62651.github.io/FlavorFinds/",
+        github: "https://github.com/Abdelrahman-Ashraf-Fathey/FlavorFinds",
+        live: "https://abdelrahman-ashraf-fathey.github.io/FlavorFinds/",
     },
     {
         id: 4,
@@ -54,8 +54,8 @@ const projects = [
         difficulty: 2,
         status: "COMPLETED",
         xp: 3000,
-        github: "https://github.com/AbdelrahmanAshraf62651/portfolio",
-        live: "https://abdelrahmanashraf62651.github.io/portfolio/",
+        github: "https://github.com/Abdelrahman-Ashraf-Fathey/portfolio",
+        live: "https://abdelrahman-ashraf-fathey.github.io/portfolio/",
     },
 ];
 
