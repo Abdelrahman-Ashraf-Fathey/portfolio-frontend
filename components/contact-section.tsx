@@ -85,7 +85,7 @@ export function ContactSection() {
         {
             icon: FaGithub,
             label: "GitHub",
-            href: "https://github.com/Abdelrahman-Ashraf-Fathey",
+            href: "https://github.com/abdelrahman0xff",
         },
         {
             icon: FaLinkedin,
